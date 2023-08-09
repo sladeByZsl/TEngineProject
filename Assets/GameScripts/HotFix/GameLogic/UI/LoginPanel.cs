@@ -1,7 +1,9 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using TEngine;
+using YooAsset;
 
 namespace GameLogic
 {
@@ -21,9 +23,22 @@ namespace GameLogic
         private void OnClickBtn()
         {
             Log.Info("click btn");
+            string sceneName = "game";
+            GameModule.Resource.LoadSceneAsync(sceneName);
             
+            var operation = GameModule.Resource.LoadSceneAsync(sceneName);
+            operation.Completed += Operation_Completed;
         }
+
+        private void Operation_Completed(SceneOperationHandle obj)
+        {
+            Debug.LogError("加载成功");
+            GameModule.UI.CloseWindow<LoginPanel>();
+        }
+        
         #endregion
 
+        
+      
     }
 }
