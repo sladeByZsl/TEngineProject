@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIRaw_Atlas_BasicElements
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 49
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: f769e7f037cfd48dc90c332a3544d5f9, type: 3}
+    - {fileID: 21300000, guid: 72cea64c65f2b4f62b8ace0b096e0cac, type: 3}
+    - {fileID: 21300000, guid: 9163d0ec7395e4c9b977e2e608dcd47d, type: 3}
+    - {fileID: 21300000, guid: 77446a91a7b144cd59faaa09697980f1, type: 3}
+    - {fileID: 21300000, guid: a91dc9b90918644e89dc466614629d80, type: 3}
+    - {fileID: 21300000, guid: 18c5dc02ecee04d0493f82b8b16b6469, type: 3}
+    - {fileID: 21300000, guid: 77b69225b2cb2474aadebaea74597e33, type: 3}
+    - {fileID: 21300000, guid: 3490d79859a2a456394d504bce579b66, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
+  m_RenderDataMap: {}
+  m_Tag: UIRaw_Atlas_BasicElements
+  m_IsVariant: 0

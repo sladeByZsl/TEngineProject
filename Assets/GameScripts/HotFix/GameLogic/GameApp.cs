@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 using GameBase;
+using GameLogic;
 using TEngine;
 
 public partial class GameApp:Singleton<GameApp>
@@ -35,7 +36,8 @@ public partial class GameApp:Singleton<GameApp>
     /// </summary>
     private void StartGameLogic()
     {
-        
+        // 异步打开面板
+        GameModule.UI.ShowUIAsync<LoginPanel>();
     }
 
     /// <summary>

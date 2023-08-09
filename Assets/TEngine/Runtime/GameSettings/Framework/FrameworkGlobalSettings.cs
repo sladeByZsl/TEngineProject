@@ -58,7 +58,7 @@ public class UpdateData
     public string CurrentVersion;
 
     /// <summary>
-    /// 是否底包更新。
+    /// 是否底包更新。要换apk
     /// </summary>
     public UpdateType UpdateType;
 
