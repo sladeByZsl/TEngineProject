@@ -13,6 +13,8 @@ set DATA_OUTPUT=%ROOT_PATH%..\GenerateDatas
  --gen_types code_cs_unity_bin,data_bin ^
  -s client
 
+xcopy "%WORKSPACE%\Assets\AssetRaw\Configs\bytes\" "%WORKSPACE%\GenerateDatas\bytes\" /E /I
+
 echo ======== 生成配置文件结束 ========
 
 pause

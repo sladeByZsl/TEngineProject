@@ -12,10 +12,15 @@ namespace GameLogic
     {
         #region 脚本工具生成的代码
         private Button m_btn;
+        private Button m_btnLogin;
+        private Text m_textTitle;
         public override void ScriptGenerator()
         {
             m_btn = FindChildComponent<Button>("parent/m_btn");
+            m_btnLogin = FindChildComponent<Button>("parent/m_btnLogin");
+            m_textTitle = FindChildComponent<Text>("parent/m_textTitle");
             m_btn.onClick.AddListener(OnClickBtn);
+            m_btnLogin.onClick.AddListener(OnClickLoginBtn);
         }
         #endregion
 
@@ -36,6 +41,13 @@ namespace GameLogic
             GameModule.UI.CloseWindow<LoginPanel>();
         }
         
+        
+        private void OnClickLoginBtn()
+        {
+            var skillBaseConfig = ConfigLoader.Instance.Tables.TbItem.Get(10000);
+            m_textTitle.text = "aaaaaaaaaaaaa";
+            Debug.LogError("登陆成功2222");
+        }
         #endregion
 
         
