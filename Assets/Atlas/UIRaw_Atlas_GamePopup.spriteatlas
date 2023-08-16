@@ -31,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 1
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -53,21 +54,10 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys: []
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites:
-  - {fileID: 21300000, guid: 9c7561f46500e4825a8a830ef056d98e, type: 3}
-  - {fileID: 21300000, guid: ed8b5f451f95d4588bc8daf4b79edbe0, type: 3}
-  - {fileID: 21300000, guid: 39f8272b76601452ea7c2ad98f926502, type: 3}
-  - {fileID: 21300000, guid: c22e1a3bc419641efb1c995ae3208841, type: 3}
-  - {fileID: 21300000, guid: b9c19bbbe71424b6898bd0d568dbb53d, type: 3}
-  - {fileID: 21300000, guid: b77725ce77115479cabc7d8f6fce9a32, type: 3}
-  m_PackedSpriteNamesToIndex:
-  - FalseIcon
-  - NextIcon
-  - ReplayIcon
-  - LevelIcon
-  - StarBorder
-  - TickIcon
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
   m_RenderDataMap: {}
   m_Tag: UIRaw_Atlas_GamePopup
   m_IsVariant: 0
